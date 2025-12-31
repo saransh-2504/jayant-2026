@@ -411,7 +411,7 @@ body {
   }
   
   .open .letter {
-    transform: translateY(-20vw);
+    transform: translateY(-35vw);
   }
   
   .envlope-wrapper {
@@ -454,5 +454,20 @@ body {
   
   .letter {
     padding: 20px;
+  }
+  
+  .open .letter {
+    transform: translateY(-45vw);
+  }
+}
+
+/* Very small screens - card comes out almost completely */
+@media (max-width: 320px) {
+  .open .letter {
+    transform: translateY(-50vw);
+  }
+  
+  .envlope-wrapper {
+    height: 160vw;
   }
 }
